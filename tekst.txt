@@ -1,0 +1,7 @@
+As with many aspects about the C++ language, we have another class for reading from and writing to files that’s a leftover from C, its predecessor. 
+C-style streams are encoded in FILE objects from the cstdio library. 
+stdin and stdout are expressions of type FILE* for handling input and output streams respectively.
+
+With C-style file reading, the most important difference to the fstream class is that FILE* objects do not close files for you: 
+If you forget to close your file, it will remain open. That’s why proponents of the fstream class argue that it’s safer to use.
+Łukasz  "ąćęłńóśżźĄĆĘŁŃÓŚŻŹ
